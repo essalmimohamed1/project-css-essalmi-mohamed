@@ -11884,4 +11884,74 @@ textarea.form-control-lg {
   width: 100vw;
 }
 
+.bt1 {
+  width: 200px;
+  height: 50px;
+}
+
+.bt2 {
+  width: 150px;
+  height: 50px;
+}
+
+@media (max-width: 430px) {
+  .back-img1 {
+    background-image: url(../../../../public/img/slider.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 400px;
+  }
+  .back-img1 .h1 {
+    width: 50%;
+    height: 50%;
+  }
+}
+.sec1 {
+  height: 78vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.sec1 .sec1-div1 {
+  display: flex;
+  flex-direction: column;
+  height: 35vh;
+  justify-content: space-between;
+  align-items: center;
+}
+.sec1 .sec1-div1 h2, .sec1 .sec1-div1 .h2 {
+  width: 600px;
+  text-align: center;
+}
+.sec1 .sec1-div1 p {
+  width: 400px;
+  text-align: center;
+}
+.sec1 .sec1-div2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.sec1 .sec1-div2 .sec1-div2-div1 {
+  display: flex;
+  flex-direction: column;
+  width: 35vw;
+  height: 35vh;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+.sec1 .sec1-div2 .sec1-div2-div1 p {
+  text-align: center;
+  width: 300px;
+}
+.sec1 .sec1-div2 .sec1-div2-div1 i {
+  font-size: xx-large;
+  color: rgb(0, 140, 255);
+  border: 0.5px rgba(128, 128, 128, 0.486) solid;
+  padding: 19px;
+  border-radius: 50%;
+}
+
 /*# sourceMappingURL=app.css.map */
