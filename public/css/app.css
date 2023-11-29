@@ -11860,8 +11860,28 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.ul11 {
-  padding-left: 50%;
+.back-img1 {
+  background-image: url(../../../../public/img/slider.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  width: 100vw;
+}
+
+.back-img2 {
+  background-image: url(../../../../public/img/slider2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  width: 100vw;
+}
+
+.back-img3 {
+  background-image: url(../../../../public/img/slider3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  width: 100vw;
 }
 
 /*# sourceMappingURL=app.css.map */
