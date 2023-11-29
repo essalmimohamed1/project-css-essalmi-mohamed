@@ -114,4 +114,19 @@
             text-align: center; 
         }
     }
+    .icon1{
+        display: flex;
+        flex-wrap: wrap;
+        width: 500px;
+        gap: 20px;
+        div{
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+            i{
+                font-size: 20px;
+                color: dodgerblue;
+            }
+        }
+    }
 }

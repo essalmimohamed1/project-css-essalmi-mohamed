@@ -12025,5 +12025,20 @@ textarea.form-control-lg {
   width: 450px;
   text-align: center;
 }
+.sec3 .icon1 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  gap: 20px;
+}
+.sec3 .icon1 div {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.sec3 .icon1 div i {
+  font-size: 20px;
+  color: dodgerblue;
+}
 
 /*# sourceMappingURL=app.css.map */
