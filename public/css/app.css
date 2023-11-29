@@ -11907,6 +11907,11 @@ textarea.form-control-lg {
     height: 50%;
   }
 }
+* {
+  padding: 0;
+  margin: 0;
+}
+
 .sec1 {
   height: 78vh;
   display: flex;
@@ -11976,8 +11981,18 @@ textarea.form-control-lg {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: blue;
-  height: 30vh;
+  background-image: url(../../../../public/img/fun-bg.jpg);
+  height: 40vh;
+  position: relative;
+}
+.sec2::before {
+  content: "";
+  position: absolute;
+  background-color: dodgerblue;
+  z-index: 2;
+  opacity: 70%;
+  width: 98.8vw;
+  height: 100%;
 }
 .sec2 .sec2-div1 {
   display: flex;
@@ -11985,6 +12000,7 @@ textarea.form-control-lg {
   justify-content: space-evenly;
   align-items: center;
   color: white;
+  z-index: 3;
 }
 .sec2 .sec2-div1 i {
   font-size: x-large;
@@ -11992,6 +12008,22 @@ textarea.form-control-lg {
   border: 0.5px white solid;
   padding: 19px;
   border-radius: 50%;
+}
+
+.sec3 .sec3-div1 {
+  display: flex;
+  flex-direction: column;
+  height: 40vh;
+  justify-content: space-around;
+  align-items: center;
+}
+.sec3 .sec3-div1 h2, .sec3 .sec3-div1 .h2 {
+  width: 450px;
+  text-align: center;
+}
+.sec3 .sec3-div1 p {
+  width: 450px;
+  text-align: center;
 }
 
 /*# sourceMappingURL=app.css.map */
