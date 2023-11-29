@@ -11919,6 +11919,15 @@ textarea.form-control-lg {
   height: 35vh;
   justify-content: space-between;
   align-items: center;
+  position: relative;
+}
+.sec1 .sec1-div1::before {
+  content: "";
+  position: absolute;
+  top: 50vh;
+  left: 25vw;
+  width: 15vw;
+  border-bottom: dotted dodgerblue 2px;
 }
 .sec1 .sec1-div1 h2, .sec1 .sec1-div1 .h2 {
   width: 600px;
@@ -11932,6 +11941,15 @@ textarea.form-control-lg {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  position: relative;
+}
+.sec1 .sec1-div2::before {
+  content: "";
+  position: absolute;
+  top: 7vh;
+  left: 60vw;
+  width: 15vw;
+  border-bottom: dotted dodgerblue 2px;
 }
 .sec1 .sec1-div2 .sec1-div2-div1 {
   display: flex;
@@ -11950,6 +11968,28 @@ textarea.form-control-lg {
   font-size: xx-large;
   color: rgb(0, 140, 255);
   border: 0.5px rgba(128, 128, 128, 0.486) solid;
+  padding: 19px;
+  border-radius: 50%;
+}
+
+.sec2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: blue;
+  height: 30vh;
+}
+.sec2 .sec2-div1 {
+  display: flex;
+  width: 20vw;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+}
+.sec2 .sec2-div1 i {
+  font-size: x-large;
+  color: white;
+  border: 0.5px white solid;
   padding: 19px;
   border-radius: 50%;
 }
