@@ -12041,4 +12041,34 @@ textarea.form-control-lg {
   color: dodgerblue;
 }
 
+.sec4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+  height: 50vh;
+  background-color: rgba(30, 143, 255, 0.785);
+}
+.sec4 h2, .sec4 .h2 {
+  color: white;
+  width: 40%;
+  text-align: center;
+}
+.sec4 p {
+  color: white;
+  width: 40%;
+  text-align: center;
+}
+.sec4 .btt1 {
+  height: 10vh;
+  width: 15vw;
+}
+.sec4 .btt2 {
+  height: 10vh;
+  width: 12vw;
+  background-color: rgba(30, 143, 255, 0.329);
+  border: 2px white solid;
+}
+
 /*# sourceMappingURL=app.css.map */
