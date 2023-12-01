@@ -10,59 +10,61 @@
     <body>
         <header>
             <!-- navbar -->
-        <nav class="navbar navbar-expand-lg  position-fixed z-1 w-100 bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="./public/img/logo.png" alt=""></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto ul11 w-75 mb-2 mb-lg-0 gap-3">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Home
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary w-lg-100 position-fixed z-3 w-100">
+                <div class="container-fluid gap-lg-5 d-lg-flex justify-content-lg-center navigation">
+                    <a class="navbar-brand" href="#"><img src="./public/img/logo.png" alt=""></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-lg-5 ps-3">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-lg-3">
+                                <li class="nav-item dropdown nav-hov">
+                                    <a class="nav-link navhover active text-blue   " href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Home
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item nav-hov ">
+                                    <a class="nav-link navhover" href="#"> Doctos</a>
+                                </li>
+                                <li class="nav-item nav-hov">
+                                    <a class="nav-link navhover" href="#"> Services</a>
+                                </li>
+                                <li class="nav-item dropdown nav-hov">
+                                    <a class="nav-link navhover " href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Pages
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown nav-hov">
+                                    <a class="nav-link navhover " href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        BLOG
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item nav-hov">
+                                    <a class="nav-link navhover" href="#"> Contact Us</a>
+                                </li>
                             </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-black" href="#">Doctos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-black" href="#">Services</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Pages
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Blogs
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li>
-                            </ul>
-                        </li>
-                        <div class="d-lg-flex d-flex justify-content-lg-evenly justify-content-evenly px-lg-5   ">
-                            <button class="bg-primary border-0 text-light p-1 rounded-1">Book Appointment</button>
-                        </div>
-                    </ul>
+                            <li class="ps-lg-4">
+                                <a href="#"><button class="btn bg-blue tatema text-light">Book Appointment</button></a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-        </nav>
+            </nav>
         </header>
         <main>
                 <!-- caroussel -->
@@ -186,65 +188,84 @@
         </section>
         <!-- section 3 -->
         <section>
-            <div class="sec3 p-5 w-100 d-flex flex-column justify-content-around gap-5">
-                <div class="sec3-div1">
-                    <h2 >We Offer Different Services To Improve Your Health </h2>
-                    <img width="50px" src="./public/img/section-img.png" alt="">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, odio.</p>
+            <div class="five-scss d-flex flex-column align-items-center w-100 pt-5 gap-4 pb-5">
+                <div class="text-scss w-75 d-flex flex-column align-items-center text-center gap-3">
+                    <h3 class="w-50">We Offer DIfferent Services To Improve Your Health</h3>
+                    <img src="./public/img/section-img.png" alt="img">
+                    <p class="w-50">Lorem ipsum dolor sit, amet consec coznjdc dcncw cwoencw tetur adipisicing elit. A, at.</p>
                 </div>
-                <div class="d-lg-flex d-flex flex-column h-100 w-100 h-100 justify-content-lg-around align-items-lg-center">
-                    <div class="w-50 h-100 d-lg-flex flex-lg-column ">
-                        <h4>Who We Are</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente fuga distinctio consectetur alias ut quia Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, rerum..</p>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, veniam. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <div class="icon1">
+                <div class="d-flex flex-column flex-lg-row px-lg-5 gap-lg-3 fifth-sec px-3 pb-5">
+                    <div class="w-50 d-flex flex-column gap-3 ps-lg-5 hereweare fifth-info">
+                        <h2 class="ps-lg-5 ps-3">Who We Are</h2>
+                        <p class="ps-lg-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis eaque iste
+                            mollitia,
+                            necessitatibus amet nobis ex ipsum possimus odit assumenda.</p>
+                        <p class="ps-lg-5">Lorem ipsum dolor sit amet consectetur adipisisectetur adipisicing nsectetur
+                            adipisis elit.</p>
+                        <div class="d-flex gap-lg-4 ps-lg-5 flex-column  flex-lg-row">
                             <div>
-                                <i class="fa-solid fa-circle-play"></i>
-                                <p>Lorem, ipsum dolor simo</p>
+                                <p><i class="fa-solid fa-circle-play text-blue pe-2"></i>Lorem ipsum t,adipisicing.</p>
+                                <p><i class="fa-solid fa-circle-play text-blue pe-2"></i>Lorem ipsumadipisicing.</p>
+                                <p><i class="fa-solid fa-circle-play text-blue pe-2"></i>Lorem ipsum dolor s,adipisicing.
+                                </p>
                             </div>
                             <div>
-                                <i class="fa-solid fa-circle-play"></i>
-                                <p>Lorem, ipsum dolor simo</p>
-                            </div>
-                            <div>
-                                <i class="fa-solid fa-circle-play"></i>
-                                <p>Lorem, ipsum dolor simo</p>
-                            </div>
-                            <div>
-                                <i class="fa-solid fa-circle-play"></i>
-                                <p>Lorem, ipsum dolor simo</p>
-                            </div>
-                            <div>
-                                <i class="fa-solid fa-circle-play"></i>
-                                <p>Lorem, ipsum dolor simo</p>
-                            </div>
-                            <div>
-                                <i class="fa-solid fa-circle-play"></i>
-                                <p>Lorem, ipsum dolor simo</p>
+                                <p><i class="fa-solid fa-circle-play text-blue pe-2"></i>Lorem ipsum dipisicing.</p>
+                                <p><i class="fa-solid fa-circle-play text-blue pe-2"></i>Lorem ipspisicing.</p>
+                                <p><i class="fa-solid fa-circle-play text-blue pe-2"></i>Lorem ipssit,adipisicing.</p>
                             </div>
                         </div>
                     </div>
-                    <div>
-                        <video  height="350px" width="500" controls>
-                            <source src="https://youtu.be/5iqacqOM7Vs?si=A7X6Lc7rvez1u-Ql" type="video/mp4">
-                        </video>
+                    <div class="w-50 fifth-video ">
+                        <iframe width="520" height="360" src="https://www.youtube.com/embed/M_UggpjTujE?si=rUsGWYYPqnCOWmO3"
+                            title="YouTube video player" frameborder="0" class="rounded-3"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
                     </div>
-                    
                 </div>
             </div>
         </section>
         <!-- section 4 -->
         <section>
-            <div class="sec4 ">
-                <h2>Do you need Emergency medical Care ? Call @ 1234 56789</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic, est adipisci? Dolore vitae voluptate quidem?</p>
-                <div class="d-lg-flex  d-flex flex-lg-row gap-4 ">
-                    <button class="btt1  border-0 bg-light text-black rounded-2 ">Cantact Now</button>
-                    <button class="btt2  text-light rounded-2">Appointment</button>
+            <div class="position-relative six-sec w-100">
+                <div class="position-absolute six-img">
+                    <img width="100%" src="./public/img/call-bg.jpg" alt="">
+                </div>
+                <div class="position-absolute text-center six-info text-light top-50 start-50 translate-middle w-100 ">
+                    <div class="d-flex flex-column align-items-center w-100">
+                        <h4 class="py-3 fs-1 w-50">Do You Nedd Emergency Medical Care? Call @ 911</h4>
+                        <p class="py-3 fs-5 w-50">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed rerum
+                            similique neque magni eum possimus!</p>
+                        <div class="d-flex justify-content-center gap-2">
+                            <a href="#"><button class="btn bg-light text-blue six-hov1">Contact now</button></a>
+                            <a href="#"><button class="btn border-light text-light six-hov2">Learn More -></button></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
         <!-- section 5 -->
+        <div class="sec-seven d-flex flex-column align-items-center  w-100  pt-5 pb-5 gap-5" >
+            <div class="text-scss w-75 d-flex flex-column align-items-center text-center gap-3">
+                <h3 class="w-50">We Offer DIfferent Services To Improve Your Health</h3>
+                <img  src="./public/img/section-img.png" alt="img">
+                <p class="w-50">Lorem ipsum dolor sit, amet consec coznjdc dcncw cwoencw tetur adipisicing elit. A, at.</p>
+            </div>
+            <div class="d-flex flex-column flex-lg-row w-100 ps-lg-3 ps-2 gap-3 gap-lg-0 pb-5 seven-img">
+                <div>
+                    <img width="98%" src="./public/img/pf1.jpg" alt="">
+                </div>
+                <div>
+                    <img width="98%" src="./public/img/pf2.jpg" alt="">
+                </div>
+                <div>
+                    <img width="98%" src="./public/img/pf3.jpg" alt="">
+                </div>
+                <div>
+                    <img width="98%" src="./public/img/pf4.jpg" alt="">
+                </div>
+            </div>
+        </div>
         <!-- section 6 -->
         <section>
             <div class="d-lg-flex sec3 flex-lg-column justify-content-lg-around align-items-lg-center w-100 h-100 p-5">
