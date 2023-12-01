@@ -12355,6 +12355,15 @@ body {
   margin: 0;
   padding: 0;
 }
+body .oool {
+  position: fixed;
+  top: 20%;
+  right: 0%;
+  z-index: 6;
+}
+body .ool {
+  height: 300px;
+}
 body .back {
   position: fixed;
   bottom: 2vh;
