@@ -248,7 +248,58 @@
         }
     }
 }
-
+.sec6{
+    .div1{
+        h1{
+            width: 44rem;
+        }
+        
+        p{
+            width: 44rem;
+        } 
+    }
+    .div2{
+        .alldiv{
+            .div1{
+                width: 75rem;
+            }
+                
+        }
+            
+        .image1{
+            width: 18rem;
+            height: 14rem;
+            position: relative;
+            img{
+                width: 100%;
+                height: 100%;
+                display: block;
+            }
+            div{
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                position: absolute;
+                background-color: $blue;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                opacity: 0;
+                transition: 1s;
+                &:hover{
+                    opacity: 70%
+                }
+                button{
+                    width: 8rem;
+                    height: 3rem;
+                }
+            }
+                
+        }
+            
+    }
+}
 .hereweare{
     h2{
         position: relative;
@@ -399,6 +450,7 @@
     background-size: 0% 100%;
     transition: background-size .5s, color .5s;
 }
+
 .boton-1:hover {
     background-size: 100% 100%;
     color: #fff;
@@ -562,6 +614,40 @@
             }
         }
     }
+// 
+    .sec6{
+        .div1{
+            h1{
+                width: 100vw !important;
+            }
+            p{
+                width: 100vw !important;
+            }
+        }
+        .div2{
+            .alldiv{
+                .div1{
+                    width: 80vw !important;
+                    .image1{
+                        width: 80vw !important;
+                    }
+                        
+                        img{
+                            width: 80vw !important;
+                        }
+                            
+                }
+                .carousel_control{
+                    display: none;
+                }
+                    
+            }
+                
+        }
+    }
+    
+        
+// 
     .eleven-sec{
         height: 120vh !important;
         .sec-img{
@@ -630,6 +716,9 @@
         .log{
             .log1{
                 width: 96% !important;
+                div{
+                    width: 100% !important;
+                }
             }
             .log2{
                 width: 96% !important;
