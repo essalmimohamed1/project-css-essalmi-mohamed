@@ -12548,6 +12548,10 @@ body .tatema:hover {
   padding: 19px;
   border-radius: 50%;
 }
+.sec1 .sec1-div2 .sec1-div2-div1 i:hover {
+  color: white;
+  background-color: rgb(0, 140, 255);
+}
 
 .sec2 {
   display: flex;
@@ -12574,7 +12578,7 @@ body .tatema:hover {
   justify-content: space-evenly;
   align-items: center;
   color: white;
-  z-index: 3;
+  z-index: 2;
 }
 .sec2 .sec2-div1 i {
   font-size: x-large;
@@ -12582,6 +12586,10 @@ body .tatema:hover {
   border: 0.5px white solid;
   padding: 19px;
   border-radius: 50%;
+}
+.sec2 .sec2-div1 i:hover {
+  background-color: white;
+  color: dodgerblue;
 }
 
 .sec3 .sec3-div1 {
@@ -12815,12 +12823,6 @@ body .tatema:hover {
   border: white solid 1.5px;
 }
 
-.six-hov2:hover {
-  background-size: 100% 100%;
-  color: white !important;
-  border: white solid 1.5px;
-}
-
 .eleven-sec {
   height: 36.5vh;
 }
@@ -12837,6 +12839,31 @@ body .tatema:hover {
 }
 .eleven-sec .hola {
   z-index: 2;
+}
+
+.boton-1 {
+  position: relative;
+  display: inline-block;
+  color: white;
+  background-image: linear-gradient(#363636, #363636);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  transition: background-size 0.5s, color 0.5s;
+}
+
+.boton-1:hover {
+  background-size: 100% 100%;
+  color: #fff;
+}
+
+.walo {
+  background-color: white;
+}
+
+.walo:hover i {
+  background-color: black;
+  color: aqua;
 }
 
 @media (max-width: 430px) {
@@ -13008,6 +13035,33 @@ body .tatema:hover {
   }
   .five-scss .fifth-sec .fifth-video iframe {
     width: 93vw;
+  }
+  .six-sec {
+    height: 90vh;
+  }
+  .six-sec .six-img {
+    visibility: hidden;
+  }
+  .six-sec .six-info div h4, .six-sec .six-info div .h4 {
+    width: 80% !important;
+  }
+  .six-sec .six-info div p {
+    width: 80% !important;
+  }
+  .sec-twelve .text-scss h3, .sec-twelve .text-scss .h3 {
+    width: 80% !important;
+  }
+  .sec-twelve .text-scss p {
+    width: 80% !important;
+  }
+  .sec-twelve .log .log1 {
+    width: 96% !important;
+  }
+  .sec-twelve .log .log2 {
+    width: 96% !important;
+  }
+  .sec-twelve .log .log2 div img {
+    width: 100% !important;
   }
 }
 * {
