@@ -12355,6 +12355,24 @@ body {
   margin: 0;
   padding: 0;
 }
+body .back {
+  position: fixed;
+  bottom: 2vh;
+  right: 2vw;
+  z-index: 10;
+}
+body .back .top {
+  height: 100px;
+  width: 100px;
+  bottom: 40px;
+  right: 0px;
+}
+body .back .top .scroll {
+  font-size: 50px;
+}
+body .back .top .scroll:hover {
+  color: black;
+}
 body .img_s2_2 {
   background-image: url(../../../../public/img/slider.jpg) !important;
   padding-top: 30px;
@@ -12452,6 +12470,20 @@ body .tatema {
   transition: background-size 0.5s, color 0.5s;
 }
 body .tatema:hover {
+  background-size: 100% 100%;
+  color: #fff;
+}
+body .tatema2 {
+  position: relative;
+  display: inline-block;
+  color: white;
+  background-image: linear-gradient(#1a76d1, #1a76d1);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  transition: background-size 0.5s, color 0.5s;
+}
+body .tatema2:hover {
   background-size: 100% 100%;
   color: #fff;
 }
@@ -12783,10 +12815,28 @@ body .tatema:hover {
   width: 100%;
   background: #1a76d1;
   opacity: 0.5;
-  z-index: 1;
+  z-index: 2;
 }
 .six-sec .six-info {
   z-index: 2;
+}
+
+.hihi1 div {
+  position: relative;
+}
+.hihi1 div::after {
+  content: "";
+  position: absolute;
+  left: 0vw;
+  bottom: 0;
+  width: 0;
+  background: #1a76d1;
+  height: 4px;
+  border-radius: 4px;
+  transition: ease-in-out 0.3s;
+}
+.hihi1 div:hover::after {
+  width: 100%;
 }
 
 .six-hov1 {
@@ -12798,6 +12848,15 @@ body .tatema:hover {
   background-repeat: no-repeat;
   background-size: 0% 100%;
   transition: background-size 0.3s, color 0.3s;
+}
+
+.six-img {
+  background-image: url(../../../../public/img/call-bg.jpg) !important;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed;
+  z-index: 1;
 }
 
 .six-hov1:hover {
@@ -12878,7 +12937,7 @@ body .tatema:hover {
   .sec1 .sec1-div1 {
     display: flex;
     flex-direction: column;
-    height: 35vh;
+    height: 37vh;
     justify-content: space-between;
     align-items: center;
     position: relative;
@@ -12887,7 +12946,11 @@ body .tatema:hover {
     display: none;
   }
   .sec1 .sec1-div1 h2, .sec1 .sec1-div1 .h2 {
-    width: 400px;
+    width: 300px;
+    text-align: center;
+  }
+  .sec1 .sec1-div1 p {
+    width: 300px;
     text-align: center;
   }
   .sec1 .sec1-div2 {
@@ -13002,6 +13065,9 @@ body .tatema:hover {
     background-color: rgba(30, 143, 255, 0.329);
     border: 2px white solid;
   }
+  .sec5 .sec5-div1 h3, .sec5 .sec5-div1 .h3 {
+    width: 450px;
+  }
   .eleven-sec {
     height: 120vh !important;
   }
@@ -13075,6 +13141,11 @@ footer div p {
 
 .mrg div p {
   margin-bottom: 0;
+}
+
+.i1:hover {
+  background-color: white;
+  color: dodgerblue;
 }
 
 .subs {

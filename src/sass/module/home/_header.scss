@@ -1,4 +1,23 @@
 body{
+    .back {
+        position: fixed;
+        bottom: 2vh;
+        right: 2vw;
+        z-index: 10;
+        .top {
+            height: 100px;
+            width: 100px;
+            bottom: 40px;
+            right: 0px;
+    
+            .scroll {
+                font-size: 50px;
+                &:hover{
+                    color:black
+                }
+            }
+        }
+    }
     margin: 0;
     padding: 0;
     .img_s2_2{
@@ -106,8 +125,22 @@ body{
         background-size: 0% 100%;
         transition: background-size .5s, color .5s;
     }
-    
     .tatema:hover {
+        background-size: 100% 100%;
+        color: #fff;
+    }
+    .tatema2 {
+        position: relative;
+        display: inline-block;
+        color: white;
+        background-image: linear-gradient($blue, $blue);
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-size: 0% 100%;
+        transition: background-size .5s, color .5s;
+    }
+    
+    .tatema2:hover {
         background-size: 100% 100%;
         color: #fff;
     }

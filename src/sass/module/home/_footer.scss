@@ -17,6 +17,12 @@ footer {
         }
     }
 }
+.i1{
+    &:hover{
+        background-color: white;
+        color: dodgerblue;
+    }
+}
 .subs { 
     position: relative;
     display: inline-block;
