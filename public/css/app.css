@@ -12502,6 +12502,12 @@ body .tatema2:hover {
     margin: 0;
     padding: 0;
   }
+  body .oool {
+    position: fixed;
+    top: 3%;
+    right: 0%;
+    z-index: 6;
+  }
   body .text_carousel1 {
     display: flex;
     padding: 50px;
